@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background: white;
+    padding-bottom: 8px;
+    border-bottom: none;
+}
+.navbar img{
+    padding-bottom: 40px;
+    display: inline;
+}
+.login-img{
+    height: 400px;
+    width: 620px;
+    margin-left: 30px;
+    padding-top: 35px;
+}
+.logo-new{
+    width: 70px;
+}
+.logo-kemendikbud{
+    width: 95px;
+}
+.navbar-bottom{
+    margin-top: 45px;
+}
+#div2{
+    text-align: center;
+    color: black;
+}
+#formu{
+    background: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 111px;
+}
+.form-control{
+    height: 43px;
+    border-radius: 12px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background: #2E828B;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+#footer{
+    height: 100px;
+    background: #902E2E;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 200px;
+}
+.footer-row{
+    margin-top: 10px;
+}
+.navbar-mobile{
+    display: none;
+}
+.margin-left{
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .login-img{
+        display: none;
+    }                
+    .logo-bottom{
+        width: 55px;
+    }  
+    .navbar-brand{
+        display: none;
+    }
+    .margin-left{
+        margin-left: 20%;
+    }
+    #formu{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #footer{
+        display: none;
+        background-color: none;
+    }
+    .logo-new{
+        width: 55px;
+    }
+    .logo-kemendikbud{
+        width: 55px;
+    }
+    .navbar-mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .login-img{
+        display: none;
+    }
+    .logo-bottom{
+        width: 55px;
+        margin-left: 4px;
+        margin-right: 4px;
+    } 
+    .margin-left{
+        margin-left: 5%;
+    }
+    .img-sakti{
+        padding-top: 100px;
+    }
+    .logo-new{
+        width: 55px;
+        
+    }
+    .logo-kemendikbud{
+        width: 65px;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    #formu{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .navbar-mobile{
+        display: block;
+    }
+    #footer{
+        display: none;
+        background-color: none;
+    }
+}
