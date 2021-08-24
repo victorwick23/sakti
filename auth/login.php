@@ -23,23 +23,17 @@ if(isset($_SESSION['admin']) || isset($_SESSION['dokter']) || isset($_SESSION['a
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="Puskesmas" src="img/landpage/puskes.png">
+          <a class="navbar-brand" href="https://www.kemdikbud.go.id/">
+            <img class="logo-kemendikbud" alt="sakti" src="img/landpage/kemendikbud.png">
           </a>
-          <a class="navbar-brand" href="#">
-            <img alt="Poltekkes" src="img/landpage/poltek.png">
+          <a class="navbar-brand" href="https://www.atmaluhur.ac.id/">
+            <img class="logo-kemendikbud" alt="sakti" src="img/landpage/isb.png">
           </a>
-          <a class="navbar-brand" href="#">
-            <img alt="sakti" src="img/landpage/sakti2.png">
-          </a>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="http://www.stikescitradelima.ac.id/">
             <img class="logo-new" alt="sakti" src="img/landpage/cidel.png">
           </a>
           <a class="navbar-brand" href="#">
-            <img class="logo-kemendikbud" alt="sakti" src="img/landpage/kemendikbud.png">
-          </a>
-          <a class="navbar-brand" href="#">
-            <img class="logo-kemendikbud" alt="sakti" src="img/landpage/isb.png">
+            <img alt="Puskesmas" src="img/landpage/puskes.png">
           </a>
         </div>
       </div>
@@ -80,25 +74,17 @@ if(isset($_SESSION['admin']) || isset($_SESSION['dokter']) || isset($_SESSION['a
     <div class="container">
         <div class="navbar-bottom">
           <div class="row">
-            <a class="col-xs-3 navbar-mobile" href="#">
-              <img class="logo-bottom center-block" alt="Puskesmas" src="img/landpage/puskes.png">
-            </a>
-            <a class="col-xs-3 navbar-mobile" href="#">
-              <img class="logo-bottom center-block" alt="Poltekkes" src="img/landpage/poltek.png">
-            </a>
-            <a class="col-xs-3 navbar-mobile" href="#">
-              <img class="logo-bottom center-block" alt="sakti" src="img/landpage/sakti2.png">
-            </a>
-            <a class="col-xs-3 navbar-mobile" href="#">
-              <img class="logo-new center-block" alt="sakti" src="img/landpage/cidel.png">
-            </a>
-          </div>
-          <div class="row">
-            <a class="col-xs-6 navbar-mobile" href="#">
+            <a class="col-xs-3 navbar-mobile" href="https://www.kemdikbud.go.id/">
               <img class="logo-kemendikbud center-block" alt="sakti" src="img/landpage/kemendikbud.png">
             </a>
-            <a class="col-xs-6 navbar-mobile" href="#">
+            <a class="col-xs-3 navbar-mobile" href="https://www.atmaluhur.ac.id/">
               <img class="logo-kemendikbud center-block" alt="sakti" src="img/landpage/isb.png">
+            </a>
+            <a class="col-xs-3 navbar-mobile" href="http://www.stikescitradelima.ac.id/">
+              <img class="logo-new center-block" alt="sakti" src="img/landpage/cidel.png">
+            </a>
+            <a class="col-xs-3 navbar-mobile" href="#">
+              <img class="logo-bottom center-block" alt="Puskesmas" src="img/landpage/puskes.png">
             </a>
           </div>
         </div>
